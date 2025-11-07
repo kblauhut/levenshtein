@@ -1,0 +1,18 @@
+{
+  "name": "levenshtein",
+  "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "test": "vitest run",
+    "ts:check": "tsc --noEmit",
+    "ts:build": "tsc"
+  },
+  "devDependencies": {
+    "fast-levenshtein": "^3.0.0",
+    "fastest-levenshtein": "^1.0.16",
+    "js-levenshtein": "^1.1.6",
+    "leven": "^4.1.0",
+    "tsx": "^4.20.6",
+    "typescript": "5.9.3",
+    "vitest": "4.0.7"
+  }
+}
